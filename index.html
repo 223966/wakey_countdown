@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo&family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Wakey</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="title">Wakey!</p>
+      <p class="subtitle">Your safety, our concern</p>
+      <div class="qr-codes-container">
+        <div class="qr-code">
+          <img class="qr-code-img" src="./qr-app.png" alt="qr-code-app" />
+          <p class="qr-hint">Scan the code to download the app!</p>
+        </div>
+        <div class="qr-code">
+          <img
+            class="qr-code-img"
+            src="./qr-website.png"
+            alt="qr-code-website"
+          />
+          <p class="qr-hint">Scan the code to visit our website!</p>
+        </div>
+      </div>
+    </div>
+    <div class="countdown-container">
+      <p id="counter" class="subtitle">X</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
